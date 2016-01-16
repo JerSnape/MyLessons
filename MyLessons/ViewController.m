@@ -44,6 +44,7 @@
     NSLog (@ "Numbers easy at the end %i, %i, %f", one11, two22, three33);
     NSLog (@"Jerry");
     NSLog (@"================================================");
+    NSLog (@"Testing changes with commits and branches");
     
     // Make three rectangles for the storyboard.
     
