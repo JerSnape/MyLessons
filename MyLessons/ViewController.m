@@ -41,7 +41,9 @@
     int two22 = [two2 intValue];
     CGFloat three33 = [three3 floatValue];
     
-     NSLog (@ "Numbers easy at the end %i, %i, %f", one11, two22, three33);
+    NSLog (@ "Numbers easy at the end %i, %i, %f", one11, two22, three33);
+    NSLog (@"Jerry");
+    NSLog (@"================================================");
     
     // Make three rectangles for the storyboard.
     
