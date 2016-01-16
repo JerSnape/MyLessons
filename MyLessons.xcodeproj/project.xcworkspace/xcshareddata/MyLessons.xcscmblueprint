@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6EEBB29E2EE1FD43D9C886FB87FF209436FC83F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "824CDDB7A13E8C4EDD0C3BB33C9B2403194AFEC0" : 0,
+    "6EEBB29E2EE1FD43D9C886FB87FF209436FC83F9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F3450D6-06E3-472B-9364-7D3CFD98EF48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "824CDDB7A13E8C4EDD0C3BB33C9B2403194AFEC0" : "",
+    "6EEBB29E2EE1FD43D9C886FB87FF209436FC83F9" : "MyLessons\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyLessons",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyLessons.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JerSnape\/MyLessons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6EEBB29E2EE1FD43D9C886FB87FF209436FC83F9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JerSnape\/mylessons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "824CDDB7A13E8C4EDD0C3BB33C9B2403194AFEC0"
+    }
+  ]
+}
