@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VJMakeMe.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *rectWord;
@@ -42,9 +43,24 @@
     CGFloat three33 = [three3 floatValue];
     
     NSLog (@ "Numbers easy at the end %i, %i, %f", one11, two22, three33);
-    NSLog (@"Jerry");
+    NSLog (@"================================================");
+    NSLog (@"Lesson 3. Methods.");
     NSLog (@"================================================");
     
+    //Lesson 3. Methods of the copy of new class.
+    
+    VJMakeMe * niceMethods = [[VJMakeMe alloc]init];
+    [niceMethods makeMeSmile];
+    [niceMethods makeItWithString:@"Nice try! Go on, sweetheart!"];
+    [niceMethods makeItDouble:2 withOtherNumber:3];
+    
+    //Lesson 3. Class methods.
+    
+    [VJMakeMe makeMeReal];
+    [VJMakeMe makeMeRealOn:100];
+    [VJMakeMe makeMeDiplomaWithName:@"Valkiriia" andAge:16];
+    
+     NSLog (@"================================================");
     
     // Make three rectangles for the storyboard.
     

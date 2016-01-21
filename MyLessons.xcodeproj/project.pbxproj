@@ -18,6 +18,7 @@
 		C4353F9D1C4AB05B001DFC1C /* VJLove.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353F9C1C4AB05B001DFC1C /* VJLove.m */; };
 		C4353FA01C4AB074001DFC1C /* VJPoetry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353F9F1C4AB074001DFC1C /* VJPoetry.m */; };
 		C4353FA31C4AB085001DFC1C /* VJSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353FA21C4AB085001DFC1C /* VJSalad.m */; };
+		C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		C4353F9F1C4AB074001DFC1C /* VJPoetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJPoetry.m; path = MyLessons/VJPoetry.m; sourceTree = "<group>"; };
 		C4353FA11C4AB085001DFC1C /* VJSalad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VJSalad.h; path = MyLessons/VJSalad.h; sourceTree = "<group>"; };
 		C4353FA21C4AB085001DFC1C /* VJSalad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJSalad.m; path = MyLessons/VJSalad.m; sourceTree = "<group>"; };
+		C4A381A21C4F685F0054D2C1 /* VJMakeMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJMakeMe.h; sourceTree = "<group>"; };
+		C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJMakeMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				C4353F9F1C4AB074001DFC1C /* VJPoetry.m */,
 				C4353FA11C4AB085001DFC1C /* VJSalad.h */,
 				C4353FA21C4AB085001DFC1C /* VJSalad.m */,
+				C4A381A21C4F685F0054D2C1 /* VJMakeMe.h */,
+				C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */,
 			);
 			name = "3 classes lesson1";
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				C4353FA01C4AB074001DFC1C /* VJPoetry.m in Sources */,
 				C4353F6F1C4AAFA0001DFC1C /* ViewController.m in Sources */,
 				C4353F9D1C4AB05B001DFC1C /* VJLove.m in Sources */,
+				C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */,
 				C4353FA31C4AB085001DFC1C /* VJSalad.m in Sources */,
 				C4353F6C1C4AAFA0001DFC1C /* AppDelegate.m in Sources */,
 				C4353F691C4AAFA0001DFC1C /* main.m in Sources */,
