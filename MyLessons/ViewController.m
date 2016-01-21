@@ -50,11 +50,15 @@
     //Lesson 3. Methods of the copy of new class.
     
     VJMakeMe * niceMethods = [[VJMakeMe alloc]init];
+    
     [niceMethods makeMeSmile];
     [niceMethods makeItWithString:@"Nice try! Go on, sweetheart!"];
     [niceMethods makeItDouble:2 withOtherNumber:3];
+    [niceMethods makeMeFfromC:24];
+   
     
     //Lesson 3. Class methods.
+    NSLog (@"");
     
     [VJMakeMe makeMeReal];
     [VJMakeMe makeMeRealOn:100];

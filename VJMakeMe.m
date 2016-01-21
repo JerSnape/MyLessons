@@ -46,5 +46,11 @@
     
 }
 
+-(float) makeMeFfromC: (float) cel {
+    
+    float fhar = cel * 1.8 + 32;
+    NSLog (@"You will have %f in F weather system.", fhar);
+    return fhar;
+}
 
 @end

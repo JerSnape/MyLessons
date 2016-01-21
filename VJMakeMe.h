@@ -19,5 +19,6 @@
 -(void) makeMeSmile;
 -(void) makeItWithString: (NSString*) text;
 -(NSInteger) makeItDouble: (NSInteger) z withOtherNumber: (NSInteger) x;
+-(float) makeMeFfromC: (float) cel;
 
 @end
