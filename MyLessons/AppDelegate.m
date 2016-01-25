@@ -22,38 +22,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSLog (@"================================================");
-    NSLog (@"Lesson 1. 3 classes and methods.");
-    NSLog (@"================================================");
-    
-    //First class from lesson 1. This class has method "loveIs" that shows us what is important in love and family life.
-    NSLog(@"First Class LOVE");
-    NSLog(@" ");
-    
-    VJLove * myLove = [[VJLove alloc]init];
-    [myLove loveIs];
-    
-    //We move to second class. Its method shows us several lines from the poem of a russian poet.
-    NSLog(@" ");
-    NSLog(@"Second Class POETRY");
-    NSLog(@" ");
-    
-    VJPoetry * myPoetry = [[VJPoetry alloc]init];
-    [myPoetry writeMePoem];
-    
-    
-    //Last class. It supposed to show us HowToDo a salad, but most of time while I was codding I was sleeping so as a good IT-girl I should remake it later. Hehe! Not sure if this may happen ever after ^_^
-    NSLog(@" ");
-    NSLog(@"Third Class SALAD");
-    NSLog(@" ");
-    
-    VJSalad * mySalad = [[VJSalad alloc]init];
-    [mySalad howToDo];
-    
-    NSLog(@" ");
-    NSLog(@"Jerry.");
-
-    
     return YES;
 }
 

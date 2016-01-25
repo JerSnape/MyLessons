@@ -19,6 +19,9 @@
 		C4353FA01C4AB074001DFC1C /* VJPoetry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353F9F1C4AB074001DFC1C /* VJPoetry.m */; };
 		C4353FA31C4AB085001DFC1C /* VJSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353FA21C4AB085001DFC1C /* VJSalad.m */; };
 		C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */; };
+		C4B7EA841C54FD2E00C30170 /* VJManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7EA831C54FD2E00C30170 /* VJManager.m */; };
+		C4F181A11C5628D400AB0597 /* VJTeen.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F181A01C5628D400AB0597 /* VJTeen.m */; };
+		C4F181A41C562D5300AB0597 /* VJFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F181A31C562D5300AB0597 /* VJFriends.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		C4353FA21C4AB085001DFC1C /* VJSalad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJSalad.m; path = MyLessons/VJSalad.m; sourceTree = "<group>"; };
 		C4A381A21C4F685F0054D2C1 /* VJMakeMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJMakeMe.h; sourceTree = "<group>"; };
 		C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJMakeMe.m; sourceTree = "<group>"; };
+		C4B7EA821C54FD2E00C30170 /* VJManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJManager.h; sourceTree = "<group>"; };
+		C4B7EA831C54FD2E00C30170 /* VJManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJManager.m; sourceTree = "<group>"; };
+		C4F1819F1C5628D400AB0597 /* VJTeen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTeen.h; sourceTree = "<group>"; };
+		C4F181A01C5628D400AB0597 /* VJTeen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTeen.m; sourceTree = "<group>"; };
+		C4F181A21C562D5300AB0597 /* VJFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJFriends.h; sourceTree = "<group>"; };
+		C4F181A31C562D5300AB0597 /* VJFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJFriends.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,7 @@
 		C4353F5B1C4AAFA0001DFC1C = {
 			isa = PBXGroup;
 			children = (
+				C4B7EA811C54FD0E00C30170 /* Human classes */,
 				C4353F9A1C4AB025001DFC1C /* 3 classes lesson1 */,
 				C4353F661C4AAFA0001DFC1C /* MyLessons */,
 				C4353F801C4AAFA1001DFC1C /* MyLessonsTests */,
@@ -166,6 +176,19 @@
 				C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */,
 			);
 			name = "3 classes lesson1";
+			sourceTree = "<group>";
+		};
+		C4B7EA811C54FD0E00C30170 /* Human classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4B7EA821C54FD2E00C30170 /* VJManager.h */,
+				C4B7EA831C54FD2E00C30170 /* VJManager.m */,
+				C4F1819F1C5628D400AB0597 /* VJTeen.h */,
+				C4F181A01C5628D400AB0597 /* VJTeen.m */,
+				C4F181A21C562D5300AB0597 /* VJFriends.h */,
+				C4F181A31C562D5300AB0597 /* VJFriends.m */,
+			);
+			name = "Human classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4353FA01C4AB074001DFC1C /* VJPoetry.m in Sources */,
+				C4B7EA841C54FD2E00C30170 /* VJManager.m in Sources */,
+				C4F181A11C5628D400AB0597 /* VJTeen.m in Sources */,
+				C4F181A41C562D5300AB0597 /* VJFriends.m in Sources */,
 				C4353F6F1C4AAFA0001DFC1C /* ViewController.m in Sources */,
 				C4353F9D1C4AB05B001DFC1C /* VJLove.m in Sources */,
 				C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */,
