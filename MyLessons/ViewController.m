@@ -16,6 +16,7 @@
 #import "VJManager.h"
 #import "VJTeen.h"
 #import "VJFriends.h"
+#import "VJTableViewControlTableViewController.h"
 
 @interface ViewController ()
 
@@ -141,7 +142,7 @@
     VJFriends * fr2 = [[VJFriends alloc] initWithName:@"Kitton" andPhone:1298736];
     NSLog (@"\n NAMEandPHONE***** BIRTHDAY***** COLOR*****\n %@  %i      %i           %@     \n %@   %i      %i           %@     \n %@ %i      %i            %@", self.bff.name, self.bff.phone, self.bff.day, self.bff.color, [fr1 name], [fr1 phone], [fr1 birthday:12], [fr1 favColor:@"blue"], [fr2 name], [fr2 phone], [fr2 birthday:03], [fr1 favColor:@"black and pink"]);
     
-
+    
 
     
 //    

@@ -18,6 +18,8 @@
 		C4353F9D1C4AB05B001DFC1C /* VJLove.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353F9C1C4AB05B001DFC1C /* VJLove.m */; };
 		C4353FA01C4AB074001DFC1C /* VJPoetry.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353F9F1C4AB074001DFC1C /* VJPoetry.m */; };
 		C4353FA31C4AB085001DFC1C /* VJSalad.m in Sources */ = {isa = PBXBuildFile; fileRef = C4353FA21C4AB085001DFC1C /* VJSalad.m */; };
+		C442FB1F1C5E146E0087F995 /* VJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C442FB1E1C5E146E0087F995 /* VJModel.m */; };
+		C4967D181C595604005EC35F /* VJTableViewControlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4967D171C595604005EC35F /* VJTableViewControlTableViewController.m */; };
 		C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */; };
 		C4B7EA841C54FD2E00C30170 /* VJManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7EA831C54FD2E00C30170 /* VJManager.m */; };
 		C4F181A11C5628D400AB0597 /* VJTeen.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F181A01C5628D400AB0597 /* VJTeen.m */; };
@@ -64,6 +66,10 @@
 		C4353F9F1C4AB074001DFC1C /* VJPoetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJPoetry.m; path = MyLessons/VJPoetry.m; sourceTree = "<group>"; };
 		C4353FA11C4AB085001DFC1C /* VJSalad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VJSalad.h; path = MyLessons/VJSalad.h; sourceTree = "<group>"; };
 		C4353FA21C4AB085001DFC1C /* VJSalad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJSalad.m; path = MyLessons/VJSalad.m; sourceTree = "<group>"; };
+		C442FB1D1C5E146E0087F995 /* VJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJModel.h; sourceTree = "<group>"; };
+		C442FB1E1C5E146E0087F995 /* VJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJModel.m; sourceTree = "<group>"; };
+		C4967D161C595604005EC35F /* VJTableViewControlTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTableViewControlTableViewController.h; sourceTree = "<group>"; };
+		C4967D171C595604005EC35F /* VJTableViewControlTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTableViewControlTableViewController.m; sourceTree = "<group>"; };
 		C4A381A21C4F685F0054D2C1 /* VJMakeMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJMakeMe.h; sourceTree = "<group>"; };
 		C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJMakeMe.m; sourceTree = "<group>"; };
 		C4B7EA821C54FD2E00C30170 /* VJManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJManager.h; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 		C4353F5B1C4AAFA0001DFC1C = {
 			isa = PBXGroup;
 			children = (
+				C4967D151C5955B5005EC35F /* Diff Classes */,
 				C4B7EA811C54FD0E00C30170 /* Human classes */,
 				C4353F9A1C4AB025001DFC1C /* 3 classes lesson1 */,
 				C4353F661C4AAFA0001DFC1C /* MyLessons */,
@@ -176,6 +183,17 @@
 				C4A381A31C4F685F0054D2C1 /* VJMakeMe.m */,
 			);
 			name = "3 classes lesson1";
+			sourceTree = "<group>";
+		};
+		C4967D151C5955B5005EC35F /* Diff Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4967D161C595604005EC35F /* VJTableViewControlTableViewController.h */,
+				C4967D171C595604005EC35F /* VJTableViewControlTableViewController.m */,
+				C442FB1D1C5E146E0087F995 /* VJModel.h */,
+				C442FB1E1C5E146E0087F995 /* VJModel.m */,
+			);
+			name = "Diff Classes";
 			sourceTree = "<group>";
 		};
 		C4B7EA811C54FD0E00C30170 /* Human classes */ = {
@@ -331,8 +349,10 @@
 				C4F181A41C562D5300AB0597 /* VJFriends.m in Sources */,
 				C4353F6F1C4AAFA0001DFC1C /* ViewController.m in Sources */,
 				C4353F9D1C4AB05B001DFC1C /* VJLove.m in Sources */,
+				C4967D181C595604005EC35F /* VJTableViewControlTableViewController.m in Sources */,
 				C4A381A41C4F685F0054D2C1 /* VJMakeMe.m in Sources */,
 				C4353FA31C4AB085001DFC1C /* VJSalad.m in Sources */,
+				C442FB1F1C5E146E0087F995 /* VJModel.m in Sources */,
 				C4353F6C1C4AAFA0001DFC1C /* AppDelegate.m in Sources */,
 				C4353F691C4AAFA0001DFC1C /* main.m in Sources */,
 			);
